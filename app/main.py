@@ -8,8 +8,17 @@ from app.models.schemas import AnalyzeRequest, AnalyzeResponse, CallInput
 from app.services.classifier import ClassifierService
 from app.services.csv_exporter import rows_to_csv
 from app.services.dictionary_service import DictionaryService
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Amalia CX Auditor", version="1.0.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 dictionary_service = DictionaryService()
 classifier_service = ClassifierService(dictionary_service.all())
