@@ -1,0 +1,751 @@
+[
+  {
+    "caso": "¿Quién eres tú? ¿Quién es AmalIA? ¿Eres una persona?",
+    "cod_tipo": 10,
+    "cod_subtipo": 1,
+    "tipo": "Amalia",
+    "subtipo": "Identidad Amalia",
+    "activo": true,
+    "tags": [
+      "quien eres",
+      "amalia",
+      "persona"
+    ]
+  },
+  {
+    "caso": "¿Cuál es tu protocolo de atención? ¿Qué puedes resolver?",
+    "cod_tipo": 10,
+    "cod_subtipo": 2,
+    "tipo": "Amalia",
+    "subtipo": "Protocolo Amalia",
+    "activo": true,
+    "tags": [
+      "protocolo",
+      "que puedes hacer"
+    ]
+  },
+  {
+    "caso": "Llamada abandonada",
+    "cod_tipo": 10,
+    "cod_subtipo": 3,
+    "tipo": "Amalia",
+    "subtipo": "Llamada abandonada / Sin termino",
+    "activo": true,
+    "tags": [
+      "abandono",
+      "corta llamada"
+    ]
+  },
+  {
+    "caso": "Cliente ofensivo",
+    "cod_tipo": 10,
+    "cod_subtipo": 4,
+    "tipo": "Amalia",
+    "subtipo": "Cliente Ofensivo",
+    "activo": true,
+    "tags": [
+      "insulto",
+      "groseria"
+    ]
+  },
+  {
+    "caso": "Error validacion rut",
+    "cod_tipo": 10,
+    "cod_subtipo": 5,
+    "tipo": "Amalia",
+    "subtipo": "Cliente no logra validación Rut",
+    "activo": true,
+    "tags": [
+      "rut incorrecto"
+    ]
+  },
+  {
+    "caso": "Intereses avance",
+    "cod_tipo": 11,
+    "cod_subtipo": 1,
+    "tipo": "Consultas Generales",
+    "subtipo": "Intereses y Comisiones",
+    "activo": true,
+    "tags": [
+      "interes avance",
+      "comision"
+    ]
+  },
+  {
+    "caso": "Cupo disponible",
+    "cod_tipo": 12,
+    "cod_subtipo": 1,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Cupo disponible",
+    "activo": true,
+    "tags": [
+      "cupo",
+      "cupo disponible"
+    ]
+  },
+  {
+    "caso": "Deuda total",
+    "cod_tipo": 12,
+    "cod_subtipo": 2,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Deuda total",
+    "activo": true,
+    "tags": [
+      "cuanto debo",
+      "deuda"
+    ]
+  },
+  {
+    "caso": "Monto facturado",
+    "cod_tipo": 12,
+    "cod_subtipo": 3,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Monto facturado",
+    "activo": true,
+    "tags": [
+      "facturado",
+      "estado de cuenta"
+    ]
+  },
+  {
+    "caso": "Fecha de pago",
+    "cod_tipo": 12,
+    "cod_subtipo": 4,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Fecha de pago",
+    "activo": true,
+    "tags": [
+      "fecha pago"
+    ]
+  },
+  {
+    "caso": "Fecha facturación",
+    "cod_tipo": 12,
+    "cod_subtipo": 5,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Fecha de facturación",
+    "activo": true,
+    "tags": [
+      "facturacion"
+    ]
+  },
+  {
+    "caso": "Ultimo pago",
+    "cod_tipo": 12,
+    "cod_subtipo": 6,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Último pago",
+    "activo": true,
+    "tags": [
+      "ultimo pago"
+    ]
+  },
+  {
+    "caso": "Estado de cuenta",
+    "cod_tipo": 12,
+    "cod_subtipo": 7,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Estados de cuenta",
+    "activo": true,
+    "tags": [
+      "estado cuenta"
+    ]
+  },
+  {
+    "caso": "Movimientos",
+    "cod_tipo": 12,
+    "cod_subtipo": 8,
+    "tipo": "Información Financiera Básica",
+    "subtipo": "Movimientos",
+    "activo": true,
+    "tags": [
+      "movimientos"
+    ]
+  },
+  {
+    "caso": "Beneficios tarjeta",
+    "cod_tipo": 13,
+    "cod_subtipo": 1,
+    "tipo": "Beneficios de la Tarjeta Lider BCI",
+    "subtipo": "Informacion general beneficios",
+    "activo": true,
+    "tags": [
+      "beneficios"
+    ]
+  },
+  {
+    "caso": "6% acumulacion",
+    "cod_tipo": 13,
+    "cod_subtipo": 2,
+    "tipo": "Beneficios de la Tarjeta Lider BCI",
+    "subtipo": "Informacion solo 6% acumulacion",
+    "activo": true,
+    "tags": [
+      "6%"
+    ]
+  },
+  {
+    "caso": "1% acumulacion",
+    "cod_tipo": 13,
+    "cod_subtipo": 3,
+    "tipo": "Beneficios de la Tarjeta Lider BCI",
+    "subtipo": "Informacion solo 1% acumulacion",
+    "activo": true,
+    "tags": [
+      "1%"
+    ]
+  },
+  {
+    "caso": "3 cuotas contado",
+    "cod_tipo": 13,
+    "cod_subtipo": 4,
+    "tipo": "Beneficios de la Tarjeta Lider BCI",
+    "subtipo": "Informacion solo 3 cuotas contado",
+    "activo": true,
+    "tags": [
+      "3 cuotas"
+    ]
+  },
+  {
+    "caso": "Descuentos",
+    "cod_tipo": 13,
+    "cod_subtipo": 5,
+    "tipo": "Beneficios de la Tarjeta Lider BCI",
+    "subtipo": "Descuentos vigentes",
+    "activo": true,
+    "tags": [
+      "descuentos"
+    ]
+  },
+  {
+    "caso": "Mi club info",
+    "cod_tipo": 14,
+    "cod_subtipo": 1,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Informacion general beneficios",
+    "activo": true,
+    "tags": [
+      "mi club"
+    ]
+  },
+  {
+    "caso": "Mi club inscripcion",
+    "cod_tipo": 14,
+    "cod_subtipo": 2,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Inscripcion a mi Club",
+    "activo": true,
+    "tags": [
+      "inscribirme"
+    ]
+  },
+  {
+    "caso": "Mi club canje",
+    "cod_tipo": 14,
+    "cod_subtipo": 3,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Canje pesos",
+    "activo": true,
+    "tags": [
+      "canjear"
+    ]
+  },
+  {
+    "caso": "Mi club limite",
+    "cod_tipo": 14,
+    "cod_subtipo": 4,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Limite y vigencia pesos Mi Club",
+    "activo": true,
+    "tags": [
+      "limite",
+      "vencen"
+    ]
+  },
+  {
+    "caso": "Mi club minimo",
+    "cod_tipo": 14,
+    "cod_subtipo": 5,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Monto minimo canje",
+    "activo": true,
+    "tags": [
+      "minimo"
+    ]
+  },
+  {
+    "caso": "Mi club acumulacion",
+    "cod_tipo": 14,
+    "cod_subtipo": 6,
+    "tipo": "Mi Club Lider",
+    "subtipo": "Acumulación u otras consultas pesos Mi Club",
+    "activo": true,
+    "tags": [
+      "acumulo"
+    ]
+  },
+  {
+    "caso": "Costos tarjeta",
+    "cod_tipo": 15,
+    "cod_subtipo": 1,
+    "tipo": "Costos y Comisiones",
+    "subtipo": "Informacion general costos y Comisiones",
+    "activo": true,
+    "tags": [
+      "cobros",
+      "comisiones"
+    ]
+  },
+  {
+    "caso": "Mantencion",
+    "cod_tipo": 15,
+    "cod_subtipo": 2,
+    "tipo": "Costos y Comisiones",
+    "subtipo": "Informacion solo costos de mantencion",
+    "activo": true,
+    "tags": [
+      "mantencion"
+    ]
+  },
+  {
+    "caso": "Otros costos",
+    "cod_tipo": 15,
+    "cod_subtipo": 3,
+    "tipo": "Costos y Comisiones",
+    "subtipo": "Informacion solo sobre otros costos",
+    "activo": true,
+    "tags": [
+      "otros cobros"
+    ]
+  },
+  {
+    "caso": "Lineas credito",
+    "cod_tipo": 16,
+    "cod_subtipo": 1,
+    "tipo": "Información General de la Tarjeta",
+    "subtipo": "Informacion lineas de credito",
+    "activo": true,
+    "tags": [
+      "lineas"
+    ]
+  },
+  {
+    "caso": "Cambio tarjeta",
+    "cod_tipo": 16,
+    "cod_subtipo": 2,
+    "tipo": "Información General de la Tarjeta",
+    "subtipo": "Informacion costos cambio de la tarjeta",
+    "activo": true,
+    "tags": [
+      "cambiar tarjeta"
+    ]
+  },
+  {
+    "caso": "Adicionales",
+    "cod_tipo": 16,
+    "cod_subtipo": 3,
+    "tipo": "Información General de la Tarjeta",
+    "subtipo": "Informacion tarjetas adicionales",
+    "activo": true,
+    "tags": [
+      "adicional"
+    ]
+  },
+  {
+    "caso": "Entrega tarjeta",
+    "cod_tipo": 16,
+    "cod_subtipo": 4,
+    "tipo": "Información General de la Tarjeta",
+    "subtipo": "Informacion tiempo de entrega tarjeta fisica",
+    "activo": true,
+    "tags": [
+      "entrega"
+    ]
+  },
+  {
+    "caso": "Requisitos tarjeta",
+    "cod_tipo": 17,
+    "cod_subtipo": 1,
+    "tipo": "Requisitos para Solicitar la Tarjeta",
+    "subtipo": "Requisitos generales",
+    "activo": true,
+    "tags": [
+      "requisitos"
+    ]
+  },
+  {
+    "caso": "Donde solicitar",
+    "cod_tipo": 17,
+    "cod_subtipo": 2,
+    "tipo": "Requisitos para Solicitar la Tarjeta",
+    "subtipo": "Donde solicitar la tarjeta",
+    "activo": true,
+    "tags": [
+      "donde sacar"
+    ]
+  },
+  {
+    "caso": "Renta minima",
+    "cod_tipo": 17,
+    "cod_subtipo": 3,
+    "tipo": "Requisitos para Solicitar la Tarjeta",
+    "subtipo": "Renta minima requerida",
+    "activo": true,
+    "tags": [
+      "renta"
+    ]
+  },
+  {
+    "caso": "Edad minima",
+    "cod_tipo": 17,
+    "cod_subtipo": 4,
+    "tipo": "Requisitos para Solicitar la Tarjeta",
+    "subtipo": "Edad minima requerida",
+    "activo": true,
+    "tags": [
+      "edad"
+    ]
+  },
+  {
+    "caso": "Claves",
+    "cod_tipo": 18,
+    "cod_subtipo": 1,
+    "tipo": "Gestión de Claves",
+    "subtipo": "Informacion general de claves",
+    "activo": true,
+    "tags": [
+      "claves"
+    ]
+  },
+  {
+    "caso": "Pin pass",
+    "cod_tipo": 18,
+    "cod_subtipo": 2,
+    "tipo": "Gestión de Claves",
+    "subtipo": "Informacion solo clave Pin Pass",
+    "activo": true,
+    "tags": [
+      "pin pass"
+    ]
+  },
+  {
+    "caso": "Clave dinamica",
+    "cod_tipo": 18,
+    "cod_subtipo": 3,
+    "tipo": "Gestión de Claves",
+    "subtipo": "Informacion solo clave dinamica",
+    "activo": true,
+    "tags": [
+      "dinamica"
+    ]
+  },
+  {
+    "caso": "Clave internet",
+    "cod_tipo": 18,
+    "cod_subtipo": 4,
+    "tipo": "Gestión de Claves",
+    "subtipo": "Informacion solo clave internet",
+    "activo": true,
+    "tags": [
+      "internet"
+    ]
+  },
+  {
+    "caso": "Formas pago",
+    "cod_tipo": 19,
+    "cod_subtipo": 1,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Informacion general",
+    "activo": true,
+    "tags": [
+      "como pagar"
+    ]
+  },
+  {
+    "caso": "Pago presencial",
+    "cod_tipo": 19,
+    "cod_subtipo": 2,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Informacion solo canales presenciales",
+    "activo": true,
+    "tags": [
+      "presencial"
+    ]
+  },
+  {
+    "caso": "Pago online",
+    "cod_tipo": 19,
+    "cod_subtipo": 3,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Informacion solo canales en linea",
+    "activo": true,
+    "tags": [
+      "online"
+    ]
+  },
+  {
+    "caso": "Vale vista",
+    "cod_tipo": 19,
+    "cod_subtipo": 4,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Informacion pago con Vale Vista",
+    "activo": true,
+    "tags": [
+      "vale vista"
+    ]
+  },
+  {
+    "caso": "Pago dolares",
+    "cod_tipo": 19,
+    "cod_subtipo": 5,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Informacion pago cuenta internacional en dolares",
+    "activo": true,
+    "tags": [
+      "dolares"
+    ]
+  },
+  {
+    "caso": "Cambio fecha pago",
+    "cod_tipo": 19,
+    "cod_subtipo": 6,
+    "tipo": "Formas o medios de Pago",
+    "subtipo": "Cambio fecha de pago",
+    "activo": true,
+    "tags": [
+      "cambiar fecha"
+    ]
+  },
+  {
+    "caso": "Problemas pago",
+    "cod_tipo": 20,
+    "cod_subtipo": 1,
+    "tipo": "Problemas de Pago y Facilidades",
+    "subtipo": "Informacion general",
+    "activo": true,
+    "tags": [
+      "no puedo pagar"
+    ]
+  },
+  {
+    "caso": "Avance info",
+    "cod_tipo": 23,
+    "cod_subtipo": 1,
+    "tipo": "Avance y super-avance",
+    "subtipo": "Informacion general de avance super - avance",
+    "activo": true,
+    "tags": [
+      "avance"
+    ]
+  },
+  {
+    "caso": "Avance",
+    "cod_tipo": 23,
+    "cod_subtipo": 2,
+    "tipo": "Avance y super-avance",
+    "subtipo": "Informacion solo de avance",
+    "activo": true,
+    "tags": [
+      "avance"
+    ]
+  },
+  {
+    "caso": "Super avance",
+    "cod_tipo": 23,
+    "cod_subtipo": 3,
+    "tipo": "Avance y super-avance",
+    "subtipo": "Informacion solo de super - avance",
+    "activo": true,
+    "tags": [
+      "super avance"
+    ]
+  },
+  {
+    "caso": "Canales avance",
+    "cod_tipo": 23,
+    "cod_subtipo": 4,
+    "tipo": "Avance y super-avance",
+    "subtipo": "Canales para sacar avance y super - avance",
+    "activo": true,
+    "tags": [
+      "sacar avance"
+    ]
+  },
+  {
+    "caso": "Seguros info",
+    "cod_tipo": 24,
+    "cod_subtipo": 1,
+    "tipo": "Seguros",
+    "subtipo": "Informacion general de seguros",
+    "activo": true,
+    "tags": [
+      "seguros"
+    ]
+  },
+  {
+    "caso": "Seguros detalle",
+    "cod_tipo": 24,
+    "cod_subtipo": 2,
+    "tipo": "Seguros",
+    "subtipo": "Informacion solo seguros voluntarios",
+    "activo": true,
+    "tags": [
+      "desgravamen"
+    ]
+  },
+  {
+    "caso": "Contratar seguro",
+    "cod_tipo": 24,
+    "cod_subtipo": 3,
+    "tipo": "Seguros",
+    "subtipo": "Informacion de canales de contratacion",
+    "activo": true,
+    "tags": [
+      "contratar seguro"
+    ]
+  },
+  {
+    "caso": "IVA digital",
+    "cod_tipo": 25,
+    "cod_subtipo": 1,
+    "tipo": "IVA Digital",
+    "subtipo": "Informacion general IVA digital",
+    "activo": true,
+    "tags": [
+      "iva digital"
+    ]
+  },
+  {
+    "caso": "Canales",
+    "cod_tipo": 26,
+    "cod_subtipo": 1,
+    "tipo": "Canales Formales de Reclamos y/o Consultas",
+    "subtipo": "Informacion general canales de atencion",
+    "activo": true,
+    "tags": [
+      "contacto"
+    ]
+  },
+  {
+    "caso": "Sucursales",
+    "cod_tipo": 26,
+    "cod_subtipo": 2,
+    "tipo": "Canales Formales de Reclamos y/o Consultas",
+    "subtipo": "Informacion sobre sucursales y horarios",
+    "activo": true,
+    "tags": [
+      "sucursal"
+    ]
+  },
+  {
+    "caso": "Email reclamo",
+    "cod_tipo": 26,
+    "cod_subtipo": 3,
+    "tipo": "Canales Formales de Reclamos y/o Consultas",
+    "subtipo": "Informacion email para generar reclamo",
+    "activo": true,
+    "tags": [
+      "correo"
+    ]
+  },
+  {
+    "caso": "WhatsApp",
+    "cod_tipo": 26,
+    "cod_subtipo": 4,
+    "tipo": "Canales Formales de Reclamos y/o Consultas",
+    "subtipo": "Informacion numero de WhatsApp",
+    "activo": true,
+    "tags": [
+      "whatsapp"
+    ]
+  },
+  {
+    "caso": "BIP carga",
+    "cod_tipo": 27,
+    "cod_subtipo": 1,
+    "tipo": "Carga Tarjeta BIP",
+    "subtipo": "Informacion general carga",
+    "activo": true,
+    "tags": [
+      "bip"
+    ]
+  },
+  {
+    "caso": "BIP monto",
+    "cod_tipo": 27,
+    "cod_subtipo": 2,
+    "tipo": "Carga Tarjeta BIP",
+    "subtipo": "Informacion montos",
+    "activo": true,
+    "tags": [
+      "monto bip"
+    ]
+  },
+  {
+    "caso": "BIP activacion",
+    "cod_tipo": 27,
+    "cod_subtipo": 3,
+    "tipo": "Carga Tarjeta BIP",
+    "subtipo": "Informacion activacion carga",
+    "activo": true,
+    "tags": [
+      "activar bip"
+    ]
+  },
+  {
+    "caso": "Diferencias estado cuenta",
+    "cod_tipo": 31,
+    "cod_subtipo": 7,
+    "tipo": "Gestión Financiera",
+    "subtipo": "Diferencias o dudas de su estados de cuenta",
+    "activo": true,
+    "tags": [
+      "diferencia",
+      "me cobran mas"
+    ]
+  },
+  {
+    "caso": "Fraude",
+    "cod_tipo": 31,
+    "cod_subtipo": 1,
+    "tipo": "Seguridad y Bloqueos",
+    "subtipo": "Fraude (Muy importante)",
+    "activo": true,
+    "tags": [
+      "fraude"
+    ]
+  },
+  {
+    "caso": "Bloqueo tarjeta",
+    "cod_tipo": 31,
+    "cod_subtipo": 5,
+    "tipo": "Seguridad y Bloqueos",
+    "subtipo": "Bloqueo de tarjeta",
+    "activo": true,
+    "tags": [
+      "bloquear tarjeta"
+    ]
+  },
+  {
+    "caso": "Robo tarjeta",
+    "cod_tipo": 31,
+    "cod_subtipo": 6,
+    "tipo": "Seguridad y Bloqueos",
+    "subtipo": "Robo de tarjeta",
+    "activo": true,
+    "tags": [
+      "robo tarjeta"
+    ]
+  },
+  {
+    "caso": "Alianzas Lider",
+    "cod_tipo": 42,
+    "cod_subtipo": 1,
+    "tipo": "Alianzas",
+    "subtipo": "Información de Comercio Lider",
+    "activo": true,
+    "tags": [
+      "lider supermercado"
+    ]
+  }
+]
