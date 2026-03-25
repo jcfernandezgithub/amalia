@@ -27,6 +27,8 @@ class CallInput(BaseModel):
 
 class AnalyzeRequest(BaseModel):
     calls: List[CallInput]
+    prompt: Optional[str] = None
+    model: Optional[str] = "gemini-2.5-flash"
 
 
 class AnalyzeRow(BaseModel):
@@ -49,3 +51,17 @@ class AnalyzeResponse(BaseModel):
     total: int
     rows: List[AnalyzeRow]
     csv: str
+
+class GeminiClassificationResult(BaseModel):
+    tipo: str
+    subtipo: str
+    cod_tipo: int
+    cod_subtipo: int
+    resolucion: str
+    satisfaccion: str
+    falla_ia: str
+    compra_tarjeta: int
+    compra_av_sav: int
+    compra_seguro: int
+    opcion_pago: int
+    confidence: float
